@@ -42,6 +42,7 @@ tasks.withType(Javadoc) {
     }
 }
 
+/*  -----    implementation 'com.smilefuns:httpelper:1.0.0@aar' */
 publish {
     userOrg = 'eastman'      //bintray注册的用户名
     groupId = 'com.smilefuns'         //compile引用时的第1部分groupId
