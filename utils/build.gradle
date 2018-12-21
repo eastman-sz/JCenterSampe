@@ -1,4 +1,4 @@
-apply plugin: 'com.novoda.bintray-release'
+/*apply plugin: 'com.novoda.bintray-release'*/
 apply plugin: 'com.android.library'
 
 android {
@@ -36,7 +36,7 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 }
 
-//加上这些(如果有中文注释)
+/*//加上这些(如果有中文注释)
 tasks.withType(Javadoc) {
     options{ encoding "UTF-8"
         charSet 'UTF-8'
@@ -51,6 +51,6 @@ publish {
     publishVersion = '1.0.0'  //compile引用时的第3部分版本号
     desc = 'common utils'//项目描述
     repoName="freejars" //你的仓库名称，没有填写默认仓库是maven//这也是很多人上传仓库不对名问题最多情况，
-    website = 'https://github.com/eastman-sz/AndroidLibs.git' //github 托管地址
+    website = 'https://github.com/eastman-sz/JCenterSampe' //github 托管地址
     dryRun=false
-}
+}*/
